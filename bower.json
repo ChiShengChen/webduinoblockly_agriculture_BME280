@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-BME280",
+  "description": "BME280 Module for Webduino",
+  "main": "BME280.js",
+  "authors": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "BME280"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
