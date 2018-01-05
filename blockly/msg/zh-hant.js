@@ -1,1 +1,1 @@
-MSG.catBME280= "BME280溫濕度大氣壓";
+MSG.catBME280= "BME280";
