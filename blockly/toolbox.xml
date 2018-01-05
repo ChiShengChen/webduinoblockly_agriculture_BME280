@@ -1,0 +1,23 @@
+<category id="catBME280">
+  <block type="variables_set">
+    <field name="VAR">BME280</field>
+<value name="VALUE">
+      <block type="bme280_pin">
+        <field name="uno_Dpin1">2</field>
+        <field name="uno_Dpin2">3</field>
+      </block>
+    </value>
+  </block>
+  <block type="bme280_sencing">
+    <value name="time">
+      <block type="math_number">
+        <field name="NUM">1000</field>
+      </block>
+    </value>
+  </block>
+  <block type="bme280_datadisplay">
+    <field name="bme280">bme280</field>
+    <field name="temperature">temperature</field>
+  </block>
+
+</category>

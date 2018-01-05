@@ -1,0 +1,10 @@
+Blockly.Msg.WEBDUINO_BME280_SET = "Setting";
+Blockly.Msg.WEBDUINO_BME280_PIN = "pins";
+Blockly.Msg.WEBDUINO_BME280_TPIN = "BME280,";
+Blockly.Msg.WEBDUINO_BME280_SDA = "SDA";
+Blockly.Msg.WEBDUINO_BME280_SCL = "SCL";
+Blockly.Msg.WEBDUINO_BME280_DETECT = "detect";
+Blockly.Msg.WEBDUINO_BME280_EVERY = ", every";
+Blockly.Msg.WEBDUINO_BME280_GET_TIME = "ms ( 1/1000 sec )";
+Blockly.Msg.WEBDUINO_BME280_DO = "do";
+Blockly.Msg.WEBDUINO_BME280_DETECTED = "The detected data: ";

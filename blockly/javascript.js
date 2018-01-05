@@ -19,7 +19,7 @@ Blockly.JavaScript['bme280_sencing'] = function(block) {
   var variable_bme280 = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('BME280'), Blockly.Variables.NAME_TYPE);
   var dropdown_bme280_data = block.getFieldValue('bme280_data');
   var value_time = Blockly.JavaScript.valueToCode(block, 'time', Blockly.JavaScript.ORDER_ATOMIC);
-  var statements_bugcan_sencing_go = Blockly.JavaScript.statementToCode(block, 'bugcan_sencing_go');
+  var statements_bme280_sencing_go = Blockly.JavaScript.statementToCode(block, 'BME280_sencing_go');
   // TODO: Assemble JavaScript into code variable.
   var code = '...;\n';
   return code;
