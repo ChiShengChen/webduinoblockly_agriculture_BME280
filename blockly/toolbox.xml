@@ -9,17 +9,15 @@
     </value>
   </block>
   <block type="BME280_sencing">
-    <field name="bme280">bme280</field>
-    <field name="temperature">temperature</field>
     <value name="time">
+      <field name="bme280_data">temperature</field>
       <block type="math_number">
         <field name="NUM">1000</field>
       </block>
     </value>
   </block>
   <block type="BME280_display">
-    <field name="bme280">bme280</field>
-    <field name="temperature">temperature</field>
+    <field name="bme280_data">temperature</field>
   </block>
 
 </category>
