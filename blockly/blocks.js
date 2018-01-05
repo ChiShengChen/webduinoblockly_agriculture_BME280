@@ -3,7 +3,7 @@ var utmUrl = '?utm_source=cloud-blockly&utm_medium=contextMenu&utm_campaign=tuto
 
 Blockly.Blocks['bme280_setup'] = {
   init: function() {
-    this.appendValueInput("NAME")
+    this.appendValueInput("BME280")
         .setCheck(null)
         .appendField(Blockly.Msg.WEBDUINO_BME280_SET, "Setting")
         .appendField(new Blockly.FieldVariable("BME280"), "BME280")
