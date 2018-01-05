@@ -1,5 +1,5 @@
 {
-  "types": ["lcd1602_new", "lcd1602_print","lcd1602_clear"],
+  "types": ["BME280_setup","BME280_pin","BME280_sencing","BME280_datadisplay"],
   "category": "catMenu1",
   "scripts": [
     "blockly/blocks.js",
