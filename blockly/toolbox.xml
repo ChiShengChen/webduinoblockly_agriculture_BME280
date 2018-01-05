@@ -1,7 +1,7 @@
 <category id="catBME280">
   <block type="variables_set">
     <field name="VAR">BME280</field>
-<value name="VALUE">
+    <value name="VALUE">
       <block type="BME280_pin">
         <field name="uno_Dpin1">2</field>
         <field name="uno_Dpin2">3</field>
