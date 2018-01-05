@@ -1,7 +1,7 @@
 var mainUrl = 'https://tutorials.webduino.io/zh-tw/docs/';
 var utmUrl = '?utm_source=cloud-blockly&utm_medium=contextMenu&utm_campaign=tutorials';
 
-Blockly.Blocks['bme280_setup'] = {
+Blockly.Blocks['BME280_setup'] = {
   init: function() {
     this.appendValueInput("BME280")
         .setCheck(null)
@@ -16,7 +16,7 @@ Blockly.Blocks['bme280_setup'] = {
   }
 };
 
-Blockly.Blocks['bme280_pin'] = {
+Blockly.Blocks['BME280_pin'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(Blockly.Msg.WEBDUINO_BME280_TPIN, "BME280,")
@@ -30,7 +30,7 @@ Blockly.Blocks['bme280_pin'] = {
  this.setHelpUrl(mainUrl + 'basic/index.html' + utmUrl);
   }
 
-Blockly.Blocks['bme280_sencing'] = {
+Blockly.Blocks['BME280_sencing'] = {
   init: function() {
     this.appendValueInput("time")
         .setCheck("Number")
@@ -51,7 +51,7 @@ Blockly.Blocks['bme280_sencing'] = {
   }
 };
 
-Blockly.Blocks['bme280_display'] = {
+Blockly.Blocks['BME280_display'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("BME280"), "BME280")
