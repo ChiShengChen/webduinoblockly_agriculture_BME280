@@ -1,1 +1,1 @@
-MSG.catBME280= "BME280";
+MSG.catBME280= "BME280 temperature/humidity/atmosphere";
