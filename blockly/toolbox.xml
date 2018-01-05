@@ -9,6 +9,8 @@
     </value>
   </block>
   <block type="BME280_sencing">
+    <field name="bme280">bme280</field>
+    <field name="temperature">temperature</field>
     <value name="time">
       <block type="math_number">
         <field name="NUM">1000</field>
