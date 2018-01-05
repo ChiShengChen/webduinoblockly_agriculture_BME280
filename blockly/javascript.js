@@ -1,6 +1,6 @@
 Blockly.JavaScript['bme280_setup'] = function(block) {
   var variable_bme280 = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('BME280'), Blockly.Variables.NAME_TYPE);
-  var value_name = Blockly.JavaScript.valueToCode(block, 'NAME', Blockly.JavaScript.ORDER_ATOMIC);
+  var value_name = Blockly.JavaScript.valueToCode(block, 'BME280', Blockly.JavaScript.ORDER_ATOMIC);
   // TODO: Assemble JavaScript into code variable.
   var code = '...;\n';
   return code;
