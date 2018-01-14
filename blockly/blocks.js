@@ -29,6 +29,7 @@ Blockly.Blocks['BME280_pin'] = {
  this.setTooltip("");
  this.setHelpUrl(mainUrl + 'basic/index.html' + utmUrl);
   }
+};
 
 Blockly.Blocks['BME280_sencing'] = {
   init: function() {
